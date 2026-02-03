@@ -15,7 +15,7 @@ services:
       retries: 3
 
   kafka:
-    image: soldevelo/kafka:3.4.1
+    image: soldevelo/kafka:3.9.0
     ports:
       - "9092:9092"
     environment:
